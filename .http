@@ -8,9 +8,6 @@ GET {{host}}/
 
 ### Send user details to create a new telegram deep link for integration
 # No auth for now, but this should be private API only accessible by luminus server
-POST {{host}}/link/new
+# POST {{host}}/link/new/:userID
+POST {{host}}/link/new/1
 content-type: application/json
-
-{
-    "userID": 1
-}
