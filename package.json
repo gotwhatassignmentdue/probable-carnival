@@ -4,7 +4,12 @@
   "description": "For Hack&Roll '21",
   "main": "./src/index.js",
   "scripts": {
+    "start:server": "node ./src/server.js",
+    "start": "node ./src/index.js",
     "serve": "npx nodemon ./src/index.js",
+    "docker:build": "docker build -t hnr -f ./.Dockerfile .",
+    "docker:push": "docker push hnr",
+    "docker:run": "docker run -p 3000:3000 hnr",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
