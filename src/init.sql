@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS users (
-    userID INTEGER PRIMARY KEY,
-    token TEXT NOT NULL
-);

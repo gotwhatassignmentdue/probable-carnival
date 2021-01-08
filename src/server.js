@@ -11,7 +11,7 @@ const db = require("better-sqlite3")("main.db");
 // On every load, read the sql file to create the table if table does not exist
 const fs = require("fs");
 const path = require("path");
-db.exec(fs.readFileSync(path.join(__dirname, "./init.sql"), "utf8"));
+db.exec(fs.readFileSync(path.join(__dirname, "./schema.sql"), "utf8"));
 
 /**
  * Ping / Health probe API
