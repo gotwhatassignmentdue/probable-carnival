@@ -34,4 +34,4 @@ EXPOSE 3000
 # ENTRYPOINT Command ensures this command runs when the container is spun up, and cannot be overwritten with shell arguements like CMD
 # Using exec form instead of shell form
 # @todo Start server only first
-ENTRYPOINT ["npm", "run", "start:server"]
+ENTRYPOINT ["npm", "run", "start"]
