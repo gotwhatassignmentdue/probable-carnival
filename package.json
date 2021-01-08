@@ -1,0 +1,30 @@
+{
+  "name": "hnr",
+  "version": "0.0.1",
+  "description": "For Hack&Roll '21",
+  "main": "./src/index.js",
+  "scripts": {
+    "serve": "npx nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotwhatassignmentdue/probable-carnival.git"
+  },
+  "contributors": [
+    "JJ",
+    "Ivan",
+    "Beining"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gotwhatassignmentdue/probable-carnival/issues"
+  },
+  "homepage": "https://github.com/gotwhatassignmentdue/probable-carnival#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
